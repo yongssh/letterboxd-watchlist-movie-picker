@@ -89,6 +89,7 @@ def top_shared(all_watchlists):
    
 
 def main():
+    # Change according to friends' Letterboxd usernames.
     friends = ["bravefish", "DiCee", "stayjohnson"]
     combined_watchlists = retrieve_friends(friends)
     should_watch = top_shared(combined_watchlists)
